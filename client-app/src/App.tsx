@@ -13,6 +13,7 @@ useEffect(() => {
       setActivities(response.data);
     })
 }, [])
+
   return (
     <div>
       <Header as='h2' icon='users' content='Reactivities'/>
